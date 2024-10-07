@@ -62,10 +62,19 @@ h1 {
   margin-bottom: 1rem;
 }
 
+.single-question {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color-900);
+  letter-spacing: 1px;
+}
 .answer {
   max-height: 0;
   overflow: hidden;
   transition: all 0.8s ease;
+  color: #6b7280;
+  font-size: 1.7rem;
+  line-height: 1.6;
 }
 .show-answer {
   max-height: 200px;
